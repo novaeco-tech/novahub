@@ -1,4 +1,4 @@
-name: Publish Enabler Artifacts (hub)
+name: Publish Enabler Artifacts (novahub)
 
 on:
   push:
@@ -52,8 +52,8 @@ jobs:
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "hub-v${{ env.VERSION }}"
-          name: "Hub Enabler v${{ env.VERSION }}"
+          tag_name: "novahub-v${{ env.VERSION }}"
+          name: "NovaHub Enabler v${{ env.VERSION }}"
           files: |
             api.tar.gz
             app.tar.gz
@@ -63,13 +63,13 @@ jobs:
       - name: Dispatch QA
         # This triggers the ecosystem-qa repo to test this new pre-release
         run: |
-          gh api repos/nova-ecosystem/ecosystem-qa/dispatches \
+          gh api repos/novaeco-tech/ecosystem-qa/dispatches \
             -f event_type='qa-run' \
             -f client_payload='{
-                "tag": "hub-v${{ env.VERSION }}", 
-                "repo": "hub", 
-                "test_suite": "intra-hub",
-                "test_suite_path": "intra_enabler/test_hub_and_worker.py"
+                "tag": "novahub-v${{ env.VERSION }}", 
+                "repo": "novahub", 
+                "test_suite": "intra-novahub",
+                "test_suite_path": "intra_enabler/test_novahub_and_worker.py"
               }'
         env:
           GITHUB_TOKEN: ${{ secrets.DISPATCH_TOKEN }} # A PAT with repo access

@@ -1,10 +1,10 @@
-# Hub Enabler
+# NovaHub Enabler
 
-Welcome to the `hub` Horizontal Enabler.
+Welcome to the `NovaHub` Horizontal Enabler.
 
-This is the central service for project creation, community coordination, and ecosystem-wide search.
+This is the central service for innovation, complex problem decomposition, and orchestration.
 
-This is a monorepo that contains the three core components of the `hub` enabler:
+This is a monorepo that contains the three core components of the `NovaHub` enabler:
 
   * **`/api`**: The backend API service (e.g., Python/Flask).
   * **`/app`**: The frontend web application (e.g., React/Node.js).
@@ -17,7 +17,7 @@ This repository is configured to use **DevContainers** for a one-click setup, po
 
 1.  Make sure you have([https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)) installed and running.
 2.  Install the([https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)) in VS Code.
-3.  Clone this repository: `git clone https://github.com/nova-ecosystem/hub.git`
+3.  Clone this repository: `git clone https://github.com/novaeco-tech/novahub.git`
 4.  Open the cloned folder in VS Code.
 5.  A pop-up will appear: "Folder contains a Dev Container... Reopen in Container?". Click **"Reopen in Container"**.
 

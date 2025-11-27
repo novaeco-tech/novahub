@@ -1,5 +1,5 @@
 {
-    "name": "Hub Enabler",
+    "name": "NovaHub Enabler",
     "dockerComposeFile": "docker-compose.yml",
     // This is the service VS Code will 'attach' to.
     // The other services (api, website) will still be running.
