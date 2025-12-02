@@ -7,7 +7,7 @@
 [](https://opensource.org/licenses/MIT)
 [](https://www.google.com/search?q=https://lab.novaeco.tech)
 
-**NovaLab** (formerly NovaHub) is the user interface for human collaboration within the NovaEco. While Sectors manage *data* (e.g., bin levels, crop yields) and Enablers manage *infrastructure* (e.g., payments, AI), **NovaLab** manages **Intent**.
+**NovaLab** is the user interface for human collaboration within the NovaEco. While Sectors manage *data* (e.g., bin levels, crop yields) and Enablers manage *infrastructure* (e.g., payments, AI), **NovaLab** manages **Intent**.
 
 It uses a "Wizard" interface to decompose complex goals (e.g., "I want to start a textile recycling loop") into atomic, executable tasks across the ecosystem.
 
